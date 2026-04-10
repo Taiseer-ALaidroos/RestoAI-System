@@ -1,7 +1,6 @@
-```markdown
 # 🍽️ RestoAI System
 
-An intelligent Restaurant Management System built with **Python, PyQt6, SQLite, and Speech Recognition**.  
+An intelligent Restaurant Management System built with Python, PyQt6, SQLite, and Speech Recognition.  
 The system combines restaurant order management, employee control, and smart interaction features like voice commands.
 
 ---
@@ -45,8 +44,6 @@ The system combines restaurant order management, employee control, and smart int
 
 ## 📁 Project Structure
 
-```
-
 RestoAI-System/
 │
 ├── database_setup.py        # Create database & users
@@ -63,8 +60,6 @@ RestoAI-System/
 ├── photo/                   # Images for meals & drinks
 │
 └── restaurant.db           # SQLite database (auto generated)
-
-````
 
 ---
 
@@ -84,43 +79,32 @@ Default users in database:
 ## ▶️ How to Run
 
 1. Install requirements:
-```bash
 pip install PyQt6 SpeechRecognition pyaudio
-````
 
 2. Run database setup (first time only):
-
-```bash
 python database_setup.py
-```
 
 3. Run the project:
-
-```bash
 python main.py
-```
 
 ---
 
 ## 💡 Future Improvements
 
-* Add AI recommendation system for menu
-* Online ordering system
-* Cloud database integration
-* Sales analytics dashboard
-* Multi-language support UI
+- Add AI recommendation system for menu
+- Online ordering system
+- Cloud database integration
+- Sales analytics dashboard
+- Multi-language support UI
 
 ---
 
 ## 👨‍💻 Author
 
-Developed by **Taiseer Al-Aidroos**
+Developed by Taiseer Al-Aidroos
 
 ---
 
 ## ⭐ License
 
 This project is for educational purposes.
-
-```
-```
