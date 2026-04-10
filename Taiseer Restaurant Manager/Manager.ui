@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>392</width>
+    <height>396</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ادارة الموظفين</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>Icon/Settings.jpg</normaloff>Icon/Settings.jpg</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(143, 154, 255);</string>
+  </property>
+  <widget class="QPushButton" name="pushButton_select_Employee">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>280</y>
+     <width>171</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+background-color: rgb(255, 255, 255);
+color:rgb(0, 0, 0);
+border-radius: 10px ;
+padding: 3px 1px; 
+font-family: &quot;Arial&quot;; 
+border-radius: 10px;
+border: 2px solid rgb(159, 179, 243);
+}
+
+
+QPushButton:hover{
+    border-color: rgb(200, 150, 120); 
+background-color: rgb(40, 167, 69);
+}
+
+
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>استعلام موظف</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_Edit_Emplyee">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>320</y>
+     <width>171</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+background-color: rgb(255, 255, 255);
+color:rgb(0, 0, 0);
+border-radius: 10px ;
+padding: 3px 1px; 
+font-family: &quot;Arial&quot;; 
+border-radius: 10px;
+border: 2px solid rgb(159, 179, 243);
+}
+
+
+QPushButton:hover{
+    border-color: rgb(200, 150, 120); 
+background-color: rgb(40, 167, 69);
+}
+
+
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>تعديل موظف</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_Delete_Emplyee">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>320</y>
+     <width>171</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+background-color: rgb(255, 255, 255);
+color:rgb(0, 0, 0);
+border-radius: 10px ;
+padding: 3px 1px; 
+font-family: &quot;Arial&quot;; 
+border-radius: 10px;
+border: 2px solid rgb(159, 179, 243);
+}
+
+
+QPushButton:hover{
+    border-color: rgb(200, 150, 120); 
+background-color: rgb(40, 167, 69);
+}
+
+
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>حذف موظف</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_add_Emplyee">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>280</y>
+     <width>171</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+background-color: rgb(255, 255, 255);
+color:rgb(0, 0, 0);
+border-radius: 10px ;
+padding: 3px 1px; 
+font-family: &quot;Arial&quot;; 
+border-radius: 10px;
+border: 2px solid rgb(159, 179, 243);
+}
+
+
+QPushButton:hover{
+    border-color: rgb(200, 150, 120); 
+background-color: rgb(40, 167, 69);
+}
+
+
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>اضافة موظف</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>391</width>
+     <height>261</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>photo/manager.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_back">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>360</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+background-color: rgb(255, 87, 34);
+color:rgb(255, 255, 255);
+padding: 3px 1px;  
+border-radius: 10px;
+border: 3px solid rgb(159, 179, 243);
+}
+
+
+QPushButton:hover{
+   border-color: rgb(200, 150, 120); 
+background-color: rgb(40, 167, 69);
+}
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>عودة</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
